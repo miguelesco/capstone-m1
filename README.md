@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple steps:
 
 👤 **Miguelesco**
 
-- GitHub: [@ArthurGC](https://github.com/miguelesco)
+- GitHub: [@Miguelesco](https://github.com/miguelesco)
 
 
 ## 🤝 :raised_hand: :raised_hand: Contributions
