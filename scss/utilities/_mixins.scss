@@ -11,3 +11,21 @@
   font-weight: $weight;
   line-height: $height;
 }
+
+@mixin tablet {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
