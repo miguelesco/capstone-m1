@@ -101,13 +101,6 @@
         margin-bottom: 80px;
         margin-top: 50px
       }
-      h2 {
-        @include coco-text(2rem, 500, 45px);
-  
-      }
-      .address {
-        @include lato-text(1rem, 600, 25px);
-      }
     }
   }
 }
