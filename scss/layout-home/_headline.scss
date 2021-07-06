@@ -51,3 +51,63 @@
   }
 }
 
+@include desktop {
+  .headline {
+    padding: 6rem;
+    &-title {
+      p {
+        @include lato-text(2rem, 500, 45px);
+      }
+  
+      h1 {
+        @include coco-text(3rem, 500, 70px);
+        margin: 5px;
+      }
+    }
+    &-description {
+      p {
+        @include lato-text(1rem, 500, 30px);
+        padding-left: 30px;
+        width: 75%;
+
+      }
+      h2 {
+        @include coco-text(2rem, 500, 45px);
+  
+      }
+      .address {
+        @include lato-text(1rem, 600, 25px);
+      }
+    }
+  }
+}
+
+@include large {
+  .headline {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    &-title {
+      h1 {
+        width: 80%;
+        margin: 5px;
+      }
+    }
+    &-description {
+      p {
+        @include lato-text(1rem, 500, 30px);
+        padding-left: 30px;
+        width: 55%;
+        margin-bottom: 80px;
+        margin-top: 50px
+      }
+      h2 {
+        @include coco-text(2rem, 500, 45px);
+  
+      }
+      .address {
+        @include lato-text(1rem, 600, 25px);
+      }
+    }
+  }
+}

@@ -126,4 +126,76 @@ header nav .menu-icon {
   border: 0;
 }
 
+@media only screen and (min-width: 992px) {
+  .headline {
+    padding: 6rem;
+  }
+  .headline-title p {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .headline-title h1 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 70px;
+    margin: 5px;
+  }
+  .headline-description p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px;
+    width: 75%;
+  }
+  .headline-description h2 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .headline-description .address {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .headline {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .headline-title h1 {
+    width: 80%;
+    margin: 5px;
+  }
+  .headline-description p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px;
+    width: 55%;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .headline-description h2 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .headline-description .address {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */
