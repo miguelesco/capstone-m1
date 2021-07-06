@@ -3,6 +3,19 @@
   text-decoration: none;
 }
 
+ul {
+  padding-left: 0;
+}
+
+.divider {
+  border: 2px solid #ec5242;
+  background-color: transparent;
+  height: 1px;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
 body {
   background-color: #f0f0f0;
   margin: 0;
@@ -203,14 +216,6 @@ header nav .menu-icon {
   text-align: center;
   color: #fff;
 }
-.classify-steps .divider {
-  border: 2px solid #ec5242;
-  background-color: transparent;
-  height: 1px;
-  width: 180px;
-  margin: auto;
-  margin-bottom: 1rem;
-}
 .classify-steps ul {
   margin: 24px 0;
   display: flex;
@@ -262,12 +267,16 @@ header nav .menu-icon {
   font-weight: 700;
   line-height: 24px;
   background-color: #ec5242;
-  color: #fff;
   padding: 1rem;
   width: 80%;
   margin: auto;
   margin-top: 1.2rem;
   cursor: pointer;
+  margin-bottom: 1rem;
+}
+.classify-steps button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -303,6 +312,64 @@ header nav .menu-icon {
     padding: 0;
     text-transform: uppercase;
   }
+}
+.winners h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #272a31;
+}
+.winners ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.winners ul li {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px;
+}
+.winners ul li img {
+  width: 100px;
+  height: 100px;
+  flex-basis: 30%;
+}
+.winners ul li div {
+  flex-basis: 70%;
+  width: 100px;
+}
+.winners ul li div h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+  color: #272a31;
+}
+.winners ul li div p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: #ec5242;
+  word-wrap: break-word;
+  overflow: unset;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.winners ul li div .description {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 15px;
+  color: #272a31;
 }
 
 /*# sourceMappingURL=home.css.map */

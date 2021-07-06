@@ -4,6 +4,18 @@
   text-decoration: none;
 }
 
+ul {
+  padding-left: 0;
+}
+.divider {
+  border: 2px solid $primary-red;
+  background-color: transparent;
+  height: 1px;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
 body {
   background-color: $primary-light-gray;
   margin: 0;
