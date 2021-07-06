@@ -15,6 +15,9 @@ header {
 
     ul {
       display: none;
+      position: relative;
+      list-style: none;
+      z-index: 100;
     }
 
     .menu-icon {
@@ -22,6 +25,41 @@ header {
       font-size: 2rem;
       cursor: pointer;
       z-index: 1000;
+    }
+  }
+}
+
+@include desktop {
+  header {
+    box-shadow: 0 1px 10px 3px #a7a5a5;
+    background: $primary-white;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      a {
+        display: block;
+        img {
+          width: 57px;
+          height: auto;
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 48px;
+        li {
+          display: inline-block;
+          @include lato-text(1rem, 500, 20px);
+          a {
+            color: $primary-gray;
+          }
+        }
+      }
+      .menu-icon {
+        display: none;
+      }
     }
   }
 }

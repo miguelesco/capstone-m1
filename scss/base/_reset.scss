@@ -1,3 +1,10 @@
+@use '../utilities' as *;
+
 .link {
   text-decoration: none;
+}
+
+body {
+  background-color: $primary-light-gray;
+  margin: 0;
 }

@@ -31,6 +31,7 @@
       margin: 12px 0;
       padding: 12px;
       color: $primary-gray;
+      border: solid $primary-white
     }
 
     h2 {
@@ -40,11 +41,13 @@
     }
 
     .address {
-      @include lato-text(0.8rem, 500, 25px);
+      @include lato-text(0.8rem, 600, 25px);
 
       color: $primary-gray;
       margin: 0;
       padding: 0;
+      border: 0;
     }
   }
 }
+

@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-
 .link {
   text-decoration: none;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
 }
 
 @font-face {
@@ -10,7 +14,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 header {
   background: transparent;
   padding: 24px;
@@ -18,15 +21,15 @@ header {
   top: 0;
   z-index: 50;
 }
-
 header nav a {
   display: none;
 }
-
 header nav ul {
   display: none;
+  position: relative;
+  list-style: none;
+  z-index: 100;
 }
-
 header nav .menu-icon {
   position: relative;
   font-size: 2rem;
@@ -34,10 +37,46 @@ header nav .menu-icon {
   z-index: 1000;
 }
 
+@media only screen and (min-width: 992px) {
+  header {
+    box-shadow: 0 1px 10px 3px #a7a5a5;
+    background: #fff;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav a {
+    display: block;
+  }
+  header nav a img {
+    width: 57px;
+    height: auto;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+  }
+  header nav ul li {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  header nav ul li a {
+    color: #41434b;
+  }
+  header nav .menu-icon {
+    display: none;
+  }
+}
 .headline {
   padding: 15px;
 }
-
 .headline-title p {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
@@ -46,7 +85,6 @@ header nav .menu-icon {
   color: #ec5242;
   margin: 0;
 }
-
 .headline-title h1 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1.6rem;
@@ -60,7 +98,6 @@ header nav .menu-icon {
   text-transform: uppercase;
   margin-top: 0;
 }
-
 .headline-description p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -69,8 +106,8 @@ header nav .menu-icon {
   margin: 12px 0;
   padding: 12px;
   color: #41434b;
+  border: solid #fff;
 }
-
 .headline-description h2 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1rem;
@@ -78,13 +115,15 @@ header nav .menu-icon {
   line-height: 36px;
   color: #272a31;
 }
-
 .headline-description .address {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 25px;
   color: #41434b;
   margin: 0;
   padding: 0;
+  border: 0;
 }
+
+/*# sourceMappingURL=home.css.map */
