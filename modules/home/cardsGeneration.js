@@ -2,7 +2,6 @@
 function CardsGeneration() {
   const projectSection = document.getElementById('winners');
 
-  const cardChild = [];
   const content = [
     {
       name: "TYSON 'TENZ'",
@@ -26,7 +25,7 @@ function CardsGeneration() {
     return newElement;
   };
 
-  const sectionTitle = createElement('h1', 'Featured Speakers');
+  const sectionTitle = createElement('h1', 'Winners of the last Master');
   const divider = createElement('div', '', 'divider');
   const card = [];
   const cardContainer = createElement('ul', '');

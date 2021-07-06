@@ -48,3 +48,27 @@
     }
   }
 }
+
+@include desktop {
+  .winners {
+    ul {
+      flex-direction: row;
+      padding-left: 10%;
+      padding-right: 10%;
+      li {
+        flex-basis: 50%;
+      }
+    }
+  }
+}
+@include large {
+  .winners {
+    ul {
+      li {
+        img {
+          height: 120px;
+        }
+      }
+    }
+  }
+}
