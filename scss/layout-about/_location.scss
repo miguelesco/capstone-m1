@@ -33,3 +33,24 @@
     }
   }
 }
+
+@include desktop {
+  .location {
+    h1 {
+      @include lato-text(1.5rem, 600, 36px);
+    }
+    p {
+      @include lato-text(1.2rem, 400, 28px);
+      width: 40%;
+      margin-bottom: 1rem;
+    }
+    .img-container {
+      width: 60%;
+      margin: auto;
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  } 
+}
