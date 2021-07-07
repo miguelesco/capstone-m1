@@ -4,9 +4,94 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About page</title>
+  <meta name="description" content="Capstone Proyect of Module 1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="keywords" content="Web,Web Design, course, HTML, CSS, Javascript, ArthurGC, CodeClub" />
+  <meta name="author" content="Miguelangel Escorche" />
+  <script
+    src="https://kit.fontawesome.com/27e53b408d.js"
+    crossorigin="anonymous">
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/valorant-logo.svg" />
+  <link rel="stylesheet" href="./css/about/about.css">
+  <title>Valorant Master</title>
 </head>
 <body>
-  <h1>About</h1>
+  <div class="top-bar">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <p>Logout</p>
+    <p>Mypage</p>
+    <p>Spanish</p>
+  </div>  
+  <header>
+    <nav>
+      <a href="index.html" class="link">
+        <img src="assets/icon/valorant-menu-icon.svg" alt="valorant logo">
+      </a>
+      <ul class="menu ">
+          <li>
+              <a href="index.html" class="link">Home</a>
+          </li>
+          <li>
+              <a href="#classify" class="link">How to Participate</a>
+          </li>
+          <li>
+              <a href="#winners" class="link">Last Winners</a>
+          </li>
+          <li class="join-container">
+              <a href="#sponsors" class="link border">Our Sponsors</a>
+          </li>
+      </ul>
+      <i class="fas fa-bars menu-icon" id="hamburguerIcon"></i>
+    </nav>
+
+    <div id="sideBar" class="sidebar">
+      <!-- Modal content -->
+        <div class="sidebar-content">
+            <span class="close-sidebar">&times;</span>
+            <ul>
+                <li><a href="#classify" class="sidebarNavigation" >Portfolio</a></li>
+                <li><a href="#winners"  class="sidebarNavigation">About</a></li>
+                <li><a href="#sponsors" class="sidebarNavigation">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </header>
+  <main>
+    <section id="description" class="description">
+      <div class="description-title">
+        <p>"Hello! Valorant Players"</p>
+        <h1>VCT VALORANT MASTERS TOURNAMENT 2021</h1>
+      </div>
+      <div class="description-text">
+        <p>Let's start with Challengers. Regions around the world will compete in Challengers events in three stages throughout the year. Each stage features two Challengers main events, which any team from the region can qualify for through open qualifiers. At the main events, teams compete for a place in the Challenger qualifiers. Teams that make it to and win the Challengers qualifiers will qualify for a global competition at the Masters events.</p>
+        <h2>Please Contact us to register your team</h2>
+        <p class="email">valorantplays@riotgames.com</p>
+      </div>
+    </section>
+    <section id="location" class="location">
+      <h1>Valorant Master Location 2021</h1>
+      <p>This location in Island was choose to fullfil all the requirements of the players and to fin a middle point between all teams.</p>
+      <div class="img-container">
+        <img src="./assets/images/stadium.jpeg" alt="stadium">
+      </div>
+    </section>
+    <section id="lastTournaments" class="lastTournaments">
+      <h1>See the past Tournaments</h1>
+      <p>Take a look of the last two Tournaments before the VCT Master</p>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content dark">
+      <a href="index.html" class="link">
+        <img src="assets/icon/valorant-menu-icon.svg" alt="valorant logo">
+      </a>
+      <div>
+        <h1>©2021 Riot Games, Inc. Riot Games.</h1>
+        <p>VALORANT y cualquier logo asociado son marcas, marcas de servicio o marcas registradas de Riot Games, Inc.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

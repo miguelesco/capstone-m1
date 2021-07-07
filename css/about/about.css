@@ -37,108 +37,125 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-.headline {
+.description {
   padding: 15px;
 }
-.headline-title p {
+.description-title p {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 36px;
+  text-align: center;
   color: #ec5242;
-  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
-.headline-title h1 {
+.description-title h1 {
   font-family: "Cocogoose", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 500;
   line-height: 36px;
   margin: 8px;
+  text-align: center;
+  margin: 0 auto;
   background: #ec5242;
   background: repeating-radial-gradient(circle farthest-corner at center center, #ec5242 0%, #ec5242 25%, #382e0a 50%, #ec5242 75%, #ec5242 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: 2rem;
 }
-.headline-description p {
+.description-text p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 30px;
   margin: 12px 0;
-  padding: 12px;
+  padding: 20px;
   color: #272a31;
-  border: solid #fff;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
 }
-.headline-description h2 {
+.description-text h2 {
   font-family: "Cocogoose", sans-serif;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 500;
   line-height: 36px;
   color: #272a31;
+  text-align: center;
 }
-.headline-description .address {
+.description-text .email {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 25px;
   color: #272a31;
   margin: 0;
   padding: 0;
   border: 0;
   margin-bottom: 4rem;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 768px) {
-  .headline {
+  .description {
     padding: 6rem;
   }
-  .headline-title p {
+  .description-title {
+    margin-bottom: 2rem;
+  }
+  .description-title p {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 45px;
   }
-  .headline-title h1 {
+  .description-title h1 {
     font-family: "Cocogoose", sans-serif;
     font-size: 3rem;
     font-weight: 500;
     line-height: 70px;
     margin: 5px;
   }
-  .headline-description p {
+  .description-text p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 30px;
     padding-left: 30px;
     width: 75%;
+    margin: auto;
   }
-  .headline-description h2 {
+  .description-text h2 {
     font-family: "Cocogoose", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 45px;
   }
-  .headline-description .address {
+  .description-text .email {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 25px;
+    text-align: center;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .headline {
+  .description {
     padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 8rem;
   }
-  .headline-title h1 {
+  .description-title h1 {
     width: 80%;
     margin: 5px;
+    margin: auto;
   }
-  .headline-description p {
+  .description-text p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -149,238 +166,46 @@ body {
     margin-top: 50px;
   }
 }
-.classify-steps {
-  background-color: #272a31;
-  padding: 54px 24px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.classify-steps h1 {
-  text-align: center;
-  display: inline-block;
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: center;
-  color: #fff;
-}
-.classify-steps ul {
-  margin: 24px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-left: 0;
-  gap: 12px;
-}
-.classify-steps ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  width: 100%;
-  height: auto;
-  background: #41434b;
-  padding: 12px;
-  transition: border 0.8s;
-}
-.classify-steps ul li img {
-  width: 40px;
-  height: 40px;
-  flex-basis: 20%;
-}
-.classify-steps ul li h2 {
-  color: #ec5242;
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 24px;
-  flex-basis: 30%;
-}
-.classify-steps ul li p {
-  color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 24px;
-  overflow: unset;
-  flex-basis: 50%;
-  margin: 0;
-  word-wrap: break-word;
-}
-.classify-steps button {
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 24px;
-  background-color: #ec5242;
+.location {
+  background-color: #fff;
   padding: 1rem;
+}
+.location h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
   width: 80%;
-  margin: auto;
-  margin-top: 1.2rem;
-  cursor: pointer;
+  margin: 0 auto;
   margin-bottom: 1rem;
-}
-.classify-steps button a {
-  text-decoration: none;
-  color: #fff;
-}
-
-@media only screen and (min-width: 768px) {
-  .classify-steps ul {
-    flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
-    gap: 2px;
-    margin-bottom: 3rem;
-  }
-  .classify-steps ul li {
-    flex-direction: column;
-    height: 200px;
-  }
-  .classify-steps ul li img {
-    flex-basis: 25%;
-  }
-  .classify-steps ul li h2 {
-    flex-basis: 25%;
-  }
-  .classify-steps ul li p {
-    text-align: center;
-  }
-  .classify-steps button {
-    width: 115px;
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 24px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    padding: 0;
-    text-transform: uppercase;
-  }
-}
-.winners h1 {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: center;
   color: #272a31;
 }
-.winners ul {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-bottom: 2rem;
-}
-.winners ul li {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 24px;
-  padding: 16px;
-}
-.winners ul li img {
-  width: 100px;
-  height: 100px;
-  flex-basis: 30%;
-}
-.winners ul li div {
-  flex-basis: 70%;
-  width: 100px;
-}
-.winners ul li div h2 {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 30px;
-  margin: 0;
-  color: #272a31;
-}
-.winners ul li div p {
-  font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 500;
-  line-height: 15px;
-  color: #ec5242;
-  word-wrap: break-word;
-  overflow: unset;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-.winners ul li div .description {
+.location p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 15px;
-  color: #272a31;
-}
-
-@media only screen and (min-width: 768px) {
-  .winners ul {
-    flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .winners ul li {
-    flex-basis: 50%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .winners ul li img {
-    height: 120px;
-  }
-}
-.divider {
-  width: 100px;
-}
-
-.sponsors {
-  background-color: #272a31c5;
-  padding: 12px;
-}
-.sponsors h1 {
+  font-weight: 400;
+  line-height: 20px;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 30px;
-  color: #fff;
+  opacity: 0.8;
+  width: 80%;
+  color: #272a31;
+  margin: 0 auto;
 }
-.sponsors ul {
+.location .img-container {
+  margin-top: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
+  justify-content: center;
+  border: 1px #d3d3d3;
+  border-style: dashed;
+  padding: 1rem;
 }
-.sponsors ul li img {
-  width: 150px;
+.location .img-container img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
 }
 
-@media only screen and (min-width: 768px) {
-  .sponsors ul {
-    flex-direction: row;
-    justify-content: center;
-    gap: 5%;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .sponsors ul {
-    flex-direction: row;
-    justify-content: center;
-    gap: 5%;
-  }
-  .sponsors ul li img {
-    width: 200px;
-  }
-}
 footer .footer-content {
   display: flex;
   flex-direction: column;
@@ -592,4 +417,4 @@ header nav .menu-icon {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=about.css.map */
