@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Capstone Proyect of Module 1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="keywords" content="Web,Web Design, course, HTML, CSS, Javascript, ArthurGC, CodeClub" />
   <meta name="author" content="Miguelangel Escorche" />
   <script
@@ -16,6 +17,13 @@
   <title>Valorant Master</title>
 </head>
 <body> 
+  <div class="top-bar">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <p>Logout</p>
+    <p>Mypage</p>
+    <p>Spanish</p>
+  </div>  
   <header>
     <nav>
       <a href="index.html" class="link">
@@ -26,17 +34,30 @@
               <a href="about.html" class="link">About</a>
           </li>
           <li>
-              <a href="#mainprogram" class="link">Program</a>
+              <a href="#classify" class="link">How to Participate</a>
           </li>
           <li>
-              <a href="#featuredpresenters" class="link">Presenters</a>
+              <a href="#winners" class="link">Last Winners</a>
           </li>
           <li class="join-container">
-              <a href="#" class="link join">Join for Free</a>
+              <a href="#sponsors" class="link border">Our Sponsors</a>
           </li>
       </ul>
-      <i class="fas fa-bars menu-icon"></i>
+      <i class="fas fa-bars menu-icon" id="hamburguerIcon"></i>
     </nav>
+
+    <div id="sideBar" class="sidebar">
+      <!-- Modal content -->
+        <div class="sidebar-content">
+            <span class="close-sidebar">&times;</span>
+            <ul>
+                <li><a href="#classify" class="sidebarNavigation" >Portfolio</a></li>
+                <li><a href="#winners"  class="sidebarNavigation">About</a></li>
+                <li><a href="#sponsors" class="sidebarNavigation">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
   </header>
   <main>
     <section id="headline" class="headline">
