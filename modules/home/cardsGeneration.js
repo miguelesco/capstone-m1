@@ -10,10 +10,34 @@ function CardsGeneration() {
       imageURL: './assets/images/sen-tenz.jpg',
     },
     {
-      name: "TYSON 'TENZ'",
+      name: "SHAHZEB “SHAHZAM”",
       team: 'Team Sentinel ',
-      description: "Is a Canadian player who currently plays for Sentinels. He is a retired professional Counter-Strike: Global Offensive player.",
-      imageURL: './assets/images/sen-tenz.jpg',
+      description: "Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.",
+      imageURL: './assets/images/shazam.jpg',
+    },
+    {
+      name: "JARED “ZOMBS”",
+      team: 'Team Sentinel ',
+      description: "Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.",
+      imageURL: './assets/images/sick.jpg',
+    },
+    {
+      name: "HUNTER “SICK” ",
+      team: 'Team Sentinel ',
+      description: "Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.",
+      imageURL: './assets/images/zomb.jpg',
+    },
+    {
+      name: "MICHAEL “DAPR” GULINO",
+      team: 'Team Sentinel ',
+      description: "Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.",
+      imageURL: './assets/images/dapr.jpg',
+    },
+    {
+      name: "ROB MOORE ",
+      team: 'Team Sentinel CEO',
+      description: "Is an American bussiness man owner of the sentinel team",
+      imageURL: './assets/images/rob.jpg',
     },
   ];
 

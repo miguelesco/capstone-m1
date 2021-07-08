@@ -68,7 +68,7 @@ header {
   text-decoration: none;
   color: #3a4a42;
   font-weight: 600;
-  font-size: 25px;
+  @include lato-text(1.3rem, 700, 36px);
 }
 
 .socialLinks li:hover {

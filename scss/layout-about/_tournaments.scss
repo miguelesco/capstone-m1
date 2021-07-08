@@ -1,5 +1,13 @@
 @use '../utilities' as *;
 
+.image-1 {
+  background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png") ;
+}
+
+.image-2 {
+  background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/tournament-2.jpg") ;
+}
+
 .lastTournaments{
   background-color: $primary-white;
   padding: 1rem;
@@ -30,7 +38,6 @@
       background-size: cover;
       background-position: center center ;
       background-repeat:  no-repeat;
-      background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png") ;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -44,6 +51,34 @@
       p {
         @include lato-text(0.8rem, 600, 36px);
         color: $primary-white;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .lastTournaments{
+    h1 {
+      @include lato-text(1.5rem, 600, 36px);
+    }
+    p {
+      @include lato-text(1.2rem, 400, 28px);
+      width: 40%;
+      margin-bottom: 1rem;
+    }
+    ul {
+      flex-direction: row;
+      padding-left: 10%;
+      padding-right: 10%;
+      li {
+        flex-basis: 50%;
+        height: 400px;
+        h2 {
+          @include lato-text(2rem, 700, 36px);
+        }
+        p {
+          @include lato-text(1.2rem, 600, 36px);
+        }
       }
     }
   }
