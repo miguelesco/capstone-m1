@@ -453,13 +453,21 @@ footer .footer-content div p {
   }
 
   .winners ul li {
+    height: 180px;
     flex: 1 0 40%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .winners ul li img {
-    height: 120px;
+  .winners ul {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .winners ul li div h3 {
+    margin-bottom: 15px;
+  }
+  .winners ul li div p {
+    margin-bottom: 15px;
   }
 }
 
