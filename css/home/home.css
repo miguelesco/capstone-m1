@@ -447,21 +447,21 @@ footer .footer-content div p {
 @media only screen and (min-width: 768px) {
   .winners ul {
     flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     flex-wrap: wrap;
   }
 
   .winners ul li {
-    height: 170px;
+    height: 160px;
     flex: 1 0 40%;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1350px) {
   .winners ul {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 12%;
+    padding-right: 12%;
   }
   .winners ul li div h3 {
     margin-bottom: 15px;
