@@ -48,7 +48,7 @@ function CardsGeneration() {
     return newElement;
   };
 
-  const sectionTitle = createElement('h1', 'Winners of the last Master');
+  const sectionTitle = createElement('h2', 'Winners of the last Master');
   const divider = createElement('div', '', 'divider');
   const card = [];
   const cardContainer = createElement('ul', '');
@@ -63,7 +63,7 @@ function CardsGeneration() {
         `<li>
           <img src="${imageURL}" alt="${name}">
           <div>
-            <h2>${name}</h2>
+            <h3>${name}</h3>
             <p>${team}</p>
             <p class="description">${description}</p>
           </div>

@@ -163,7 +163,7 @@ body {
   flex-direction: column;
 }
 
-.classify-steps h1 {
+.classify-steps h2 {
   text-align: center;
   display: inline-block;
   font-family: "Lato", sans-serif;
@@ -210,7 +210,7 @@ header nav ul {
   flex-basis: 20%;
 }
 
-.classify-steps ul li h2 {
+.classify-steps ul li h3 {
   color: #ec5242;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -259,8 +259,8 @@ header nav a {
 @media only screen and (min-width: 768px) {
   .classify-steps ul {
     flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     gap: 2px;
     margin-bottom: 3rem;
   }
@@ -276,12 +276,14 @@ header nav a {
     height: 60px;
   }
 
-  .classify-steps ul li h2 {
+  .classify-steps ul li h3 {
     flex-basis: 25%;
+    font-size: 0.8rem;
   }
 
   .classify-steps ul li p {
     text-align: center;
+    font-size: 0.5rem;
   }
 
   .classify-steps a {
@@ -298,7 +300,14 @@ header nav a {
   }
 }
 
-.winners h1 {
+@media only screen and (min-width: 1100px) {
+  .classify-steps ul {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.winners h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
@@ -325,7 +334,7 @@ footer .footer-content a img {
   width: 100px;
 }
 
-.sponsors h1 {
+.sponsors h2 {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -342,7 +351,7 @@ footer .footer-content div {
   color: #fff !important;
 }
 
-footer .footer-content div h1 {
+footer .footer-content div h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
@@ -406,7 +415,7 @@ footer .footer-content div p {
   width: 100px;
 }
 
-.winners ul li div h2 {
+.winners ul li div h3 {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;

@@ -181,7 +181,7 @@ body {
   padding: 1rem;
 }
 
-.location h1 {
+.location h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
@@ -225,7 +225,7 @@ footer .footer-content a img {
 }
 
 @media only screen and (min-width: 768px) {
-  .location h1 {
+  .location h2 {
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -265,7 +265,7 @@ footer .footer-content a img {
   padding: 1rem;
 }
 
-.lastTournaments h1 {
+.lastTournaments h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
@@ -326,7 +326,7 @@ header nav ul {
   width: 100%;
 }
 
-.lastTournaments ul li h2 {
+.lastTournaments ul li h3 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -343,7 +343,7 @@ header nav ul {
 }
 
 @media only screen and (min-width: 768px) {
-  .lastTournaments h1 {
+  .lastTournaments h2 {
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -370,7 +370,7 @@ header nav ul {
     height: 400px;
   }
 
-  .lastTournaments ul li h2 {
+  .lastTournaments ul li h3 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 700;
@@ -407,7 +407,7 @@ footer .footer-content div {
   flex-basis: 65%;
 }
 
-footer .footer-content div h1 {
+footer .footer-content div h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
