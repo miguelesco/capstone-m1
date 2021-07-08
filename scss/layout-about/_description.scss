@@ -6,15 +6,16 @@
   &-title {
     p {
       @include lato-text(1.3rem, 500, 36px);
+
       text-align: center;
       color: $primary-red;
       margin: 0 auto;
-      margin-bottom: 10px
+      margin-bottom: 10px;
     }
+
     h1 {
       @include coco-text(1.7rem, 500, 36px);
 
-      margin: 8px;
       text-align: center;
       margin: 0 auto;
       background: #ec5242;
@@ -36,14 +37,14 @@
       color: $primary-black;
       background-color: $primary-white;
       text-align: center;
-      margin-bottom: 2rem
+      margin-bottom: 2rem;
     }
 
     h2 {
       @include coco-text(0.6rem, 500, 36px);
 
       color: $primary-black;
-      text-align: center
+      text-align: center;
     }
 
     .email {
@@ -63,29 +64,37 @@
 @include desktop {
   .description {
     padding: 6rem;
+
     &-title {
       margin-bottom: 2rem;
+
       p {
         @include lato-text(2rem, 500, 45px);
       }
+
       h1 {
         @include coco-text(3rem, 500, 70px);
+
         margin: 5px;
       }
     }
+
     &-text {
       p {
         @include lato-text(1rem, 500, 30px);
+
         padding-left: 30px;
         width: 75%;
         margin: auto;
       }
+
       h2 {
         @include coco-text(1rem, 500, 45px);
-  
       }
+
       .email {
         @include lato-text(1rem, 600, 25px);
+
         text-align: center;
         margin: auto;
       }
@@ -98,6 +107,7 @@
     padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 8rem;
+
     &-title {
       h1 {
         width: 80%;
@@ -105,13 +115,15 @@
         margin: auto;
       }
     }
+
     &-text {
       p {
         @include lato-text(1rem, 500, 30px);
+
         padding-left: 30px;
         width: 55%;
         margin-bottom: 80px;
-        margin-top: 50px
+        margin-top: 50px;
       }
     }
   }

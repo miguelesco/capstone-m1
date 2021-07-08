@@ -1,7 +1,7 @@
 import initSidebar from '../home/sidebar.js';
 
-function init () {
+function init() {
   initSidebar();
-} 
+}
 
 init();

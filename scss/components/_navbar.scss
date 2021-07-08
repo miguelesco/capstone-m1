@@ -68,6 +68,7 @@ header {
   text-decoration: none;
   color: #3a4a42;
   font-weight: 600;
+
   @include lato-text(1.3rem, 700, 36px);
 }
 
@@ -93,36 +94,45 @@ header {
   header {
     box-shadow: 0 5px 10px 3px #a7a5a5;
     background: $primary-white;
+
     nav {
       display: flex;
       justify-content: space-between;
+
       a {
         display: block;
+
         img {
           width: 57px;
           height: auto;
         }
       }
+
       ul {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
         gap: 48px;
+
         li {
           display: inline-block;
+
           @include lato-text(1rem, 600, 20px);
+
           transition: all ease-in-out 0.3s;
+
           a {
             padding: 1rem;
             color: $primary-black;
           }
+
           :hover {
             color: $primary-red;
           }
-          
         }
       }
+
       .menu-icon {
         display: none;
       }

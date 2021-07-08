@@ -9,16 +9,19 @@ ul {
 }
 
 .dark {
-  background-color: $primary-black ;
+  background-color: $primary-black;
+
   div {
     h1 {
       color: $primary-white !important;
     }
+
     p {
       color: $primary-white !important;
     }
   }
 }
+
 .divider {
   border: 2px solid $primary-red;
   background-color: transparent;

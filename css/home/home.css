@@ -1,20 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 .link {
   text-decoration: none;
 }
 
 ul {
   padding-left: 0;
-}
-
-.dark {
-  background-color: #272a31;
-}
-.dark div h1 {
-  color: #fff !important;
-}
-.dark div p {
-  color: #fff !important;
 }
 
 .divider {
@@ -37,9 +28,11 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 .headline {
   padding: 15px;
 }
+
 .headline-title p {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
@@ -48,6 +41,7 @@ body {
   color: #ec5242;
   margin: 0;
 }
+
 .headline-title h1 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1.7rem;
@@ -61,6 +55,7 @@ body {
   text-transform: uppercase;
   margin-top: 0;
 }
+
 .headline-description p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -71,6 +66,7 @@ body {
   color: #272a31;
   border: solid #fff;
 }
+
 .headline-description h2 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1rem;
@@ -78,6 +74,7 @@ body {
   line-height: 36px;
   color: #272a31;
 }
+
 .headline-description .address {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -94,12 +91,14 @@ body {
   .headline {
     padding: 6rem;
   }
+
   .headline-title p {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 45px;
   }
+
   .headline-title h1 {
     font-family: "Cocogoose", sans-serif;
     font-size: 3rem;
@@ -107,6 +106,7 @@ body {
     line-height: 70px;
     margin: 5px;
   }
+
   .headline-description p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -115,12 +115,14 @@ body {
     padding-left: 30px;
     width: 75%;
   }
+
   .headline-description h2 {
     font-family: "Cocogoose", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 45px;
   }
+
   .headline-description .address {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -128,16 +130,19 @@ body {
     line-height: 25px;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .headline {
     padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 8rem;
   }
+
   .headline-title h1 {
     width: 80%;
     margin: 5px;
   }
+
   .headline-description p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -149,6 +154,7 @@ body {
     margin-top: 50px;
   }
 }
+
 .classify-steps {
   background-color: #272a31;
   padding: 54px 24px;
@@ -156,6 +162,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
 .classify-steps h1 {
   text-align: center;
   display: inline-block;
@@ -163,9 +170,17 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 30px;
-  text-align: center;
   color: #fff;
 }
+
+header nav ul {
+  margin: 0;
+  display: none;
+  position: relative;
+  list-style: none;
+  z-index: 100;
+}
+
 .classify-steps ul {
   margin: 24px 0;
   display: flex;
@@ -175,6 +190,7 @@ body {
   padding-left: 0;
   gap: 12px;
 }
+
 .classify-steps ul li {
   display: flex;
   flex-direction: row;
@@ -187,11 +203,13 @@ body {
   padding: 12px;
   transition: border 0.8s;
 }
+
 .classify-steps ul li img {
   width: 40px;
   height: 40px;
   flex-basis: 20%;
 }
+
 .classify-steps ul li h2 {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -200,6 +218,11 @@ body {
   line-height: 24px;
   flex-basis: 30%;
 }
+
+.dark div p {
+  color: #fff !important;
+}
+
 .classify-steps ul li p {
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -211,7 +234,12 @@ body {
   margin: 0;
   word-wrap: break-word;
 }
-.classify-steps button {
+
+header nav a {
+  display: none;
+}
+
+.classify-steps a {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -223,10 +251,9 @@ body {
   margin-top: 1.2rem;
   cursor: pointer;
   margin-bottom: 1rem;
-}
-.classify-steps button a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -237,22 +264,27 @@ body {
     gap: 2px;
     margin-bottom: 3rem;
   }
+
   .classify-steps ul li {
     flex-direction: column;
     height: 200px;
   }
+
   .classify-steps ul li img {
     flex-basis: 25%;
     width: 60px;
     height: 60px;
   }
+
   .classify-steps ul li h2 {
     flex-basis: 25%;
   }
+
   .classify-steps ul li p {
     text-align: center;
   }
-  .classify-steps button {
+
+  .classify-steps a {
     width: 115px;
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -265,8 +297,27 @@ body {
     text-transform: uppercase;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  footer .footer-content {
+    gap: 3rem;
+    flex-direction: row;
+  }
+
+  footer .footer-content a {
+    flex-basis: 20%;
+  }
+
+  footer .footer-content a img {
+    width: 110px;
+  }
+
+  footer .footer-content div {
+    flex-basis: 55%;
+  }
+}
+
 .winners h1 {
-  text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
@@ -274,12 +325,65 @@ body {
   text-align: center;
   color: #272a31;
 }
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+footer .footer-content a {
+  flex-basis: 35%;
+  text-align: end;
+}
+
+footer .footer-content a img {
+  width: 100px;
+}
+
+.sponsors h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+}
+
+footer .footer-content div {
+  flex-basis: 65%;
+}
+
+.dark div h1 {
+  color: #fff !important;
+}
+
+footer .footer-content div h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 30px;
+  color: #272a31;
+}
+
+footer .footer-content div p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 16px;
+  color: #272a31;
+}
+
 .winners ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 2rem;
 }
+
 .winners ul li {
   box-sizing: border-box;
   display: flex;
@@ -289,15 +393,18 @@ body {
   gap: 24px;
   padding: 16px;
 }
+
 .winners ul li img {
   width: 100px;
   height: 100px;
   flex-basis: 30%;
 }
+
 .winners ul li div {
   flex-basis: 70%;
   width: 100px;
 }
+
 .winners ul li div h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.1rem;
@@ -306,6 +413,7 @@ body {
   margin: 0;
   color: #272a31;
 }
+
 .winners ul li div p {
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
@@ -317,6 +425,7 @@ body {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
 .winners ul li div .description {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -332,37 +441,30 @@ body {
     padding-right: 10%;
     flex-wrap: wrap;
   }
+
   .winners ul li {
     flex: 1 0 40%;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .winners ul li img {
     height: 120px;
   }
-}
-.divider {
-  width: 100px;
 }
 
 .sponsors {
   background-color: #272a31c5;
   padding: 12px;
 }
-.sponsors h1 {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 30px;
-  color: #fff;
-}
+
 .sponsors ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
 }
+
 .sponsors ul li img {
   width: 150px;
 }
@@ -374,69 +476,25 @@ body {
     gap: 5%;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .sponsors ul {
     flex-direction: row;
     justify-content: center;
     gap: 5%;
   }
+
   .sponsors ul li img {
     width: 200px;
   }
 }
-footer .footer-content {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-footer .footer-content a {
-  flex-basis: 35%;
-  text-align: end;
-}
-footer .footer-content a img {
-  width: 100px;
-}
-footer .footer-content div {
-  flex-basis: 65%;
-}
-footer .footer-content div h1 {
-  font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 30px;
-  color: #272a31;
-}
-footer .footer-content div p {
-  font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 16px;
-  color: #272a31;
-}
 
-@media only screen and (min-width: 768px) {
-  footer .footer-content {
-    gap: 3rem;
-    flex-direction: row;
-  }
-  footer .footer-content a {
-    flex-basis: 20%;
-  }
-  footer .footer-content a img {
-    width: 110px;
-  }
-  footer .footer-content div {
-    flex-basis: 55%;
-  }
-}
 @media only screen and (min-width: 1200px) {
   footer {
     gap: 3rem;
   }
 }
+
 .border {
   border: solid 6px #ec5242;
 }
@@ -448,16 +506,7 @@ header {
   top: 0;
   z-index: 50;
 }
-header nav a {
-  display: none;
-}
-header nav ul {
-  margin: 0;
-  display: none;
-  position: relative;
-  list-style: none;
-  z-index: 100;
-}
+
 header nav .menu-icon {
   position: relative;
   font-size: 2rem;
@@ -475,8 +524,10 @@ header nav .menu-icon {
   height: 100%;
   overflow: auto;
   background-color: black;
+
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
+
   /* Black w/ opacity */
 }
 
@@ -501,7 +552,6 @@ header nav .menu-icon {
 .sidebar-content ul > li > a {
   text-decoration: none;
   color: #3a4a42;
-  font-weight: 600;
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
@@ -531,17 +581,21 @@ header nav .menu-icon {
     box-shadow: 0 5px 10px 3px #a7a5a5;
     background: #fff;
   }
+
   header nav {
     display: flex;
     justify-content: space-between;
   }
+
   header nav a {
     display: block;
   }
+
   header nav a img {
     width: 57px;
     height: auto;
   }
+
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -549,6 +603,7 @@ header nav .menu-icon {
     justify-content: flex-end;
     gap: 48px;
   }
+
   header nav ul li {
     display: inline-block;
     font-family: "Lato", sans-serif;
@@ -557,17 +612,21 @@ header nav .menu-icon {
     line-height: 20px;
     transition: all ease-in-out 0.3s;
   }
+
   header nav ul li a {
     padding: 1rem;
     color: #272a31;
   }
+
   header nav ul li :hover {
     color: #ec5242;
   }
+
   header nav .menu-icon {
     display: none;
   }
 }
+
 .top-bar {
   display: none;
 }
@@ -584,10 +643,12 @@ header nav .menu-icon {
     padding-right: 2rem;
     gap: 15px;
   }
+
   .top-bar i {
     color: #fff;
     cursor: pointer;
   }
+
   .top-bar p {
     cursor: pointer;
     font-family: "Lato", sans-serif;
@@ -598,4 +659,6 @@ header nav .menu-icon {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
+.dark {
+  background-color: #272a31;
+}

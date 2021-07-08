@@ -1,31 +1,36 @@
 @use '../utilities' as *;
 
 .image-1 {
-  background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png") ;
+  background-image: linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png");
 }
 
 .image-2 {
-  background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/tournament-2.jpg") ;
+  background-image: linear-gradient(#ad281a, #ad281a), url("../../assets/images/tournament-2.jpg");
 }
 
-.lastTournaments{
+.lastTournaments {
   background-color: $primary-white;
   padding: 1rem;
+
   h1 {
     @include lato-text(1.3rem, 600, 36px);
+
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1rem;
     color: $primary-black;
   }
+
   p {
     @include lato-text(0.8rem, 400, 20px);
+
     text-align: center;
     opacity: 0.8;
     width: 80%;
     color: $primary-black;
     margin: 0 auto;
   }
+
   ul {
     margin-top: 50px;
     display: flex;
@@ -33,23 +38,28 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
+
     li {
       background-blend-mode: hard-light;
       background-size: cover;
-      background-position: center center ;
-      background-repeat:  no-repeat;
+      background-position: center center;
+      background-repeat: no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       height: 250px;
       width: 100%;
+
       h2 {
         @include lato-text(1.5rem, 700, 36px);
+
         color: $primary-white;
       }
+
       p {
         @include lato-text(0.8rem, 600, 36px);
+
         color: $primary-white;
       }
     }
@@ -57,25 +67,31 @@
 }
 
 @include desktop {
-  .lastTournaments{
+  .lastTournaments {
     h1 {
       @include lato-text(1.5rem, 600, 36px);
     }
+
     p {
       @include lato-text(1.2rem, 400, 28px);
+
       width: 40%;
       margin-bottom: 1rem;
     }
+
     ul {
       flex-direction: row;
       padding-left: 10%;
       padding-right: 10%;
+
       li {
         flex-basis: 50%;
         height: 400px;
+
         h2 {
           @include lato-text(2rem, 700, 36px);
         }
+
         p {
           @include lato-text(1.2rem, 600, 36px);
         }

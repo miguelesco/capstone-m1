@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 .link {
   text-decoration: none;
 }
@@ -9,12 +10,6 @@ ul {
 
 .dark {
   background-color: #272a31;
-}
-.dark div h1 {
-  color: #fff !important;
-}
-.dark div p {
-  color: #fff !important;
 }
 
 .divider {
@@ -37,9 +32,11 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 .description {
   padding: 15px;
 }
+
 .description-title p {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
@@ -50,12 +47,12 @@ body {
   margin: 0 auto;
   margin-bottom: 10px;
 }
+
 .description-title h1 {
   font-family: "Cocogoose", sans-serif;
   font-size: 1.7rem;
   font-weight: 500;
   line-height: 36px;
-  margin: 8px;
   text-align: center;
   margin: 0 auto;
   background: #ec5242;
@@ -66,6 +63,7 @@ body {
   margin-top: 0;
   margin-bottom: 2rem;
 }
+
 .description-text p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -78,6 +76,7 @@ body {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 .description-text h2 {
   font-family: "Cocogoose", sans-serif;
   font-size: 0.6rem;
@@ -86,6 +85,7 @@ body {
   color: #272a31;
   text-align: center;
 }
+
 .description-text .email {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -104,15 +104,18 @@ body {
   .description {
     padding: 6rem;
   }
+
   .description-title {
     margin-bottom: 2rem;
   }
+
   .description-title p {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     line-height: 45px;
   }
+
   .description-title h1 {
     font-family: "Cocogoose", sans-serif;
     font-size: 3rem;
@@ -120,6 +123,7 @@ body {
     line-height: 70px;
     margin: 5px;
   }
+
   .description-text p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -129,12 +133,14 @@ body {
     width: 75%;
     margin: auto;
   }
+
   .description-text h2 {
     font-family: "Cocogoose", sans-serif;
     font-size: 1rem;
     font-weight: 500;
     line-height: 45px;
   }
+
   .description-text .email {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -144,17 +150,20 @@ body {
     margin: auto;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .description {
     padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 8rem;
   }
+
   .description-title h1 {
     width: 80%;
     margin: 5px;
     margin: auto;
   }
+
   .description-text p {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
@@ -166,10 +175,12 @@ body {
     margin-top: 50px;
   }
 }
+
 .location {
   background-color: #fff;
   padding: 1rem;
 }
+
 .location h1 {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
@@ -181,6 +192,7 @@ body {
   margin-bottom: 1rem;
   color: #272a31;
 }
+
 .location p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -192,6 +204,7 @@ body {
   color: #272a31;
   margin: 0 auto;
 }
+
 .location .img-container {
   margin-top: 1rem;
   display: flex;
@@ -200,6 +213,11 @@ body {
   border-style: dashed;
   padding: 1rem;
 }
+
+footer .footer-content a img {
+  width: 100px;
+}
+
 .location .img-container img {
   width: 220px;
   height: auto;
@@ -213,6 +231,7 @@ body {
     font-weight: 600;
     line-height: 36px;
   }
+
   .location p {
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
@@ -221,15 +240,18 @@ body {
     width: 40%;
     margin-bottom: 1rem;
   }
+
   .location .img-container {
     width: 60%;
     margin: auto;
   }
+
   .location .img-container img {
     width: 80%;
     height: auto;
   }
 }
+
 .image-1 {
   background-image: linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png");
 }
@@ -242,6 +264,7 @@ body {
   background-color: #fff;
   padding: 1rem;
 }
+
 .lastTournaments h1 {
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
@@ -252,6 +275,7 @@ body {
   margin-bottom: 1rem;
   color: #272a31;
 }
+
 .lastTournaments p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -263,6 +287,23 @@ body {
   color: #272a31;
   margin: 0 auto;
 }
+
+.dark div p {
+  color: #fff !important;
+}
+
+.dark div h1 {
+  color: #fff !important;
+}
+
+header nav ul {
+  margin: 0;
+  display: none;
+  position: relative;
+  list-style: none;
+  z-index: 100;
+}
+
 .lastTournaments ul {
   margin-top: 50px;
   display: flex;
@@ -271,6 +312,7 @@ body {
   justify-content: center;
   gap: 24px;
 }
+
 .lastTournaments ul li {
   background-blend-mode: hard-light;
   background-size: cover;
@@ -283,6 +325,7 @@ body {
   height: 250px;
   width: 100%;
 }
+
 .lastTournaments ul li h2 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -290,6 +333,7 @@ body {
   line-height: 36px;
   color: #fff;
 }
+
 .lastTournaments ul li p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -305,6 +349,7 @@ body {
     font-weight: 600;
     line-height: 36px;
   }
+
   .lastTournaments p {
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
@@ -313,21 +358,25 @@ body {
     width: 40%;
     margin-bottom: 1rem;
   }
+
   .lastTournaments ul {
     flex-direction: row;
     padding-left: 10%;
     padding-right: 10%;
   }
+
   .lastTournaments ul li {
     flex-basis: 50%;
     height: 400px;
   }
+
   .lastTournaments ul li h2 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 36px;
   }
+
   .lastTournaments ul li p {
     font-family: "Lato", sans-serif;
     font-size: 1.2rem;
@@ -335,6 +384,7 @@ body {
     line-height: 36px;
   }
 }
+
 footer .footer-content {
   display: flex;
   flex-direction: column;
@@ -343,16 +393,20 @@ footer .footer-content {
   justify-content: center;
   gap: 0.5rem;
 }
+
+header nav a {
+  display: none;
+}
+
 footer .footer-content a {
   flex-basis: 35%;
   text-align: end;
 }
-footer .footer-content a img {
-  width: 100px;
-}
+
 footer .footer-content div {
   flex-basis: 65%;
 }
+
 footer .footer-content div h1 {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
@@ -360,6 +414,7 @@ footer .footer-content div h1 {
   line-height: 30px;
   color: #272a31;
 }
+
 footer .footer-content div p {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
@@ -373,21 +428,26 @@ footer .footer-content div p {
     gap: 3rem;
     flex-direction: row;
   }
+
   footer .footer-content a {
     flex-basis: 20%;
   }
+
   footer .footer-content a img {
     width: 110px;
   }
+
   footer .footer-content div {
     flex-basis: 55%;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   footer {
     gap: 3rem;
   }
 }
+
 .border {
   border: solid 6px #ec5242;
 }
@@ -399,16 +459,7 @@ header {
   top: 0;
   z-index: 50;
 }
-header nav a {
-  display: none;
-}
-header nav ul {
-  margin: 0;
-  display: none;
-  position: relative;
-  list-style: none;
-  z-index: 100;
-}
+
 header nav .menu-icon {
   position: relative;
   font-size: 2rem;
@@ -426,8 +477,10 @@ header nav .menu-icon {
   height: 100%;
   overflow: auto;
   background-color: black;
+
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
+
   /* Black w/ opacity */
 }
 
@@ -452,7 +505,6 @@ header nav .menu-icon {
 .sidebar-content ul > li > a {
   text-decoration: none;
   color: #3a4a42;
-  font-weight: 600;
   font-family: "Lato", sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
@@ -482,17 +534,21 @@ header nav .menu-icon {
     box-shadow: 0 5px 10px 3px #a7a5a5;
     background: #fff;
   }
+
   header nav {
     display: flex;
     justify-content: space-between;
   }
+
   header nav a {
     display: block;
   }
+
   header nav a img {
     width: 57px;
     height: auto;
   }
+
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -500,6 +556,7 @@ header nav .menu-icon {
     justify-content: flex-end;
     gap: 48px;
   }
+
   header nav ul li {
     display: inline-block;
     font-family: "Lato", sans-serif;
@@ -508,17 +565,21 @@ header nav .menu-icon {
     line-height: 20px;
     transition: all ease-in-out 0.3s;
   }
+
   header nav ul li a {
     padding: 1rem;
     color: #272a31;
   }
+
   header nav ul li :hover {
     color: #ec5242;
   }
+
   header nav .menu-icon {
     display: none;
   }
 }
+
 .top-bar {
   display: none;
 }
@@ -535,10 +596,12 @@ header nav .menu-icon {
     padding-right: 2rem;
     gap: 15px;
   }
+
   .top-bar i {
     color: #fff;
     cursor: pointer;
   }
+
   .top-bar p {
     cursor: pointer;
     font-family: "Lato", sans-serif;
@@ -548,5 +611,3 @@ header nav .menu-icon {
     color: #fff;
   }
 }
-
-/*# sourceMappingURL=about.css.map */

@@ -15,13 +15,17 @@
     z-index: 1;
     padding-right: 2rem;
     gap: 15px;
+
     i {
       color: $primary-white;
       cursor: pointer;
     }
-    p{
+
+    p {
       cursor: pointer;
+
       @include lato-text(0.7rem, 500, 20px);
+
       color: $primary-white;
     }
   }

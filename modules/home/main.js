@@ -1,9 +1,9 @@
 import CardsGeneration from './cardsGeneration.js';
 import initSidebar from './sidebar.js';
 
-function init () {
+function init() {
   CardsGeneration();
   initSidebar();
-} 
+}
 
 init();
