@@ -463,6 +463,10 @@ footer .footer-content div p {
     padding-left: 12%;
     padding-right: 12%;
   }
+  .winners ul li {
+    height: 170px;
+    flex: 1 0 40%;
+  }
   .winners ul li div h3 {
     margin-bottom: 15px;
   }
