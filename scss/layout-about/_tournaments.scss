@@ -1,0 +1,50 @@
+@use '../utilities' as *;
+
+.lastTournaments{
+  background-color: $primary-white;
+  padding: 1rem;
+  h1 {
+    @include lato-text(1.3rem, 600, 36px);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: $primary-black;
+  }
+  p {
+    @include lato-text(0.8rem, 400, 20px);
+    text-align: center;
+    opacity: 0.8;
+    width: 80%;
+    color: $primary-black;
+    margin: 0 auto;
+  }
+  ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    li {
+      background-blend-mode: hard-light;
+      background-size: cover;
+      background-position: center center ;
+      background-repeat:  no-repeat;
+      background-image:linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png") ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 250px;
+      width: 100%;
+      h2 {
+        @include lato-text(1.5rem, 700, 36px);
+        color: $primary-white;
+      }
+      p {
+        @include lato-text(0.8rem, 600, 36px);
+        color: $primary-white;
+      }
+    }
+  }
+}
