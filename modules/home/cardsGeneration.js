@@ -11,25 +11,25 @@ function CardsGeneration() {
     {
       name: 'SHAHZEB “SHAHZAM”',
       team: 'Team Sentinel ',
-      description: 'Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.',
+      description: 'Is an American Valorant player who currently plays for the Sentinels. was previously a professional Counter-Strike: Global Offensive .',
       imageURL: './assets/images/shazam.jpg',
     },
     {
       name: 'JARED “ZOMBS”',
       team: 'Team Sentinel ',
-      description: 'Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.',
+      description: 'Is an American Valorant player who currently plays for the Sentinels. was previously a professional Counter-Strike: Global Offensive .',
       imageURL: './assets/images/sick.jpg',
     },
     {
       name: 'HUNTER “SICK” ',
       team: 'Team Sentinel ',
-      description: 'Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.',
+      description: 'Is an American Valorant player who currently plays for the Sentinels. was previously a professional Counter-Strike: Global Offensive .',
       imageURL: './assets/images/zomb.jpg',
     },
     {
-      name: 'MICHAEL “DAPR” GULINO',
+      name: 'MICHAEL “DAPR”',
       team: 'Team Sentinel ',
-      description: 'Is an American Valorant player who currently plays for the Sentinels. Khan was previously a professional Counter-Strike: Global Offensive gamer.',
+      description: 'Is an American Valorant player who currently plays for the Sentinels. was previously a professional Counter-Strike: Global Offensive .',
       imageURL: './assets/images/dapr.jpg',
     },
     {

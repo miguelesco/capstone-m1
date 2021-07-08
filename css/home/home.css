@@ -298,25 +298,6 @@ header nav a {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  footer .footer-content {
-    gap: 3rem;
-    flex-direction: row;
-  }
-
-  footer .footer-content a {
-    flex-basis: 20%;
-  }
-
-  footer .footer-content a img {
-    width: 110px;
-  }
-
-  footer .footer-content div {
-    flex-basis: 55%;
-  }
-}
-
 .winners h1 {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
@@ -377,6 +358,25 @@ footer .footer-content div p {
   color: #272a31;
 }
 
+@media only screen and (min-width: 768px) {
+  footer .footer-content {
+    gap: 3rem;
+    flex-direction: row;
+  }
+
+  footer .footer-content a {
+    flex-basis: 20%;
+  }
+
+  footer .footer-content a img {
+    width: 110px;
+  }
+
+  footer .footer-content div {
+    flex-basis: 55%;
+  }
+}
+
 .winners ul {
   display: flex;
   flex-direction: column;
@@ -392,11 +392,12 @@ footer .footer-content div p {
   justify-content: center;
   gap: 24px;
   padding: 16px;
+  height: 150px;
 }
 
 .winners ul li img {
   width: 100px;
-  height: 100px;
+  height: 100%;
   flex-basis: 30%;
 }
 
