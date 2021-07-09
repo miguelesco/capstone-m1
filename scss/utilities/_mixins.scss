@@ -11,3 +11,22 @@
   font-weight: $weight;
   line-height: $height;
 }
+
+@mixin flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}

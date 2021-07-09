@@ -1,7 +1,10 @@
 @font-face {
   font-family: "Cocogoose";
   src:
-    url('../../assets/fonts/Cocogoose-regular.ttf') format("truetype");
+    url('../../assets/fonts/Cocogoose.eot') format("eot"),
+    url('../../assets/fonts/Cocogoose.woff') format("woff"),
+    url('../../assets/fonts/Cocogoose-regular.ttf') format("truetype"),
+    url("../../assets/fonts/Cocogoose.svg#COCOGOOSE") format("svg");
   font-weight: normal;
   font-style: normal;
 }

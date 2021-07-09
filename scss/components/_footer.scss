@@ -1,0 +1,64 @@
+@use '../utilities' as *;
+
+footer {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    a {
+      flex-basis: 35%;
+      text-align: end;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    div {
+      flex-basis: 65%;
+
+      h1 {
+        @include lato-text(1.2rem, 700, 30px);
+
+        color: $primary-black;
+      }
+
+      p {
+        @include lato-text(0.8rem, 500, 16px);
+
+        color: $primary-black;
+      }
+    }
+  }
+}
+
+@include desktop {
+  footer {
+    .footer-content {
+      gap: 3rem;
+      flex-direction: row;
+
+      a {
+        flex-basis: 20%;
+
+        img {
+          width: 110px;
+        }
+      }
+
+      div {
+        flex-basis: 55%;
+      }
+    }
+  }
+}
+
+@include large {
+  footer {
+    gap: 3rem;
+  }
+}

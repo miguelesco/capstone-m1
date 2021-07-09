@@ -1,0 +1,32 @@
+@use '../utilities' as *;
+
+.top-bar {
+  display: none;
+}
+
+@include desktop {
+  .top-bar {
+    box-sizing: border-box;
+    background-color: $primary-black;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    padding-right: 2rem;
+    gap: 15px;
+
+    i {
+      color: $primary-white;
+      cursor: pointer;
+    }
+
+    p {
+      cursor: pointer;
+
+      @include lato-text(0.7rem, 500, 20px);
+
+      color: $primary-white;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@use '../utilities' as *;
+
+.divider {
+  width: 100px;
+}
+
+.sponsors {
+  background-color: #272a31c5;
+  padding: 12px;
+
+  h1 {
+    text-align: center;
+
+    @include lato-text(1.5rem, 500, 30px);
+
+    color: $primary-white;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+
+    li {
+      img {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .sponsors {
+    ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 5%;
+    }
+  }
+}
+
+@include large {
+  .sponsors {
+    ul {
+      flex-direction: row;
+      justify-content: center;
+      gap: 5%;
+
+      li {
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

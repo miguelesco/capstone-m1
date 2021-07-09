@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.dark {
+  background-color: #272a31;
+}
+
+.divider {
+  border: 2px solid #ec5242;
+  background-color: transparent;
+  height: 1px;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../../assets/fonts/Cocogoose.eot") format("eot"), url("../../assets/fonts/Cocogoose.woff") format("woff"), url("../../assets/fonts/Cocogoose-regular.ttf") format("truetype"), url("../../assets/fonts/Cocogoose.svg#COCOGOOSE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.description {
+  padding: 15px;
+}
+
+.description-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  color: #ec5242;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.description-title h1 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  background: #ec5242;
+  background: repeating-radial-gradient(circle farthest-corner at center center, #ec5242 0%, #ec5242 25%, #382e0a 50%, #ec5242 75%, #ec5242 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.description-text p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 12px 0;
+  padding: 20px;
+  color: #272a31;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.description-text h2 {
+  font-family: "Cocogoose", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+  line-height: 36px;
+  color: #272a31;
+  text-align: center;
+}
+
+.description-text .email {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 25px;
+  color: #272a31;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: 4rem;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .description {
+    padding: 6rem;
+  }
+
+  .description-title {
+    margin-bottom: 2rem;
+  }
+
+  .description-title p {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 45px;
+  }
+
+  .description-title h1 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 70px;
+    margin: 5px;
+  }
+
+  .description-text p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px;
+    width: 75%;
+    margin: auto;
+  }
+
+  .description-text h2 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 45px;
+  }
+
+  .description-text .email {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .description {
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .description-title h1 {
+    width: 80%;
+    margin: 5px;
+    margin: auto;
+  }
+
+  .description-text p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 30px;
+    width: 55%;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+}
+
+.location {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.location h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: #272a31;
+}
+
+.location p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  opacity: 0.8;
+  width: 80%;
+  color: #272a31;
+  margin: 0 auto;
+}
+
+.location .img-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  border: 1px #d3d3d3;
+  border-style: dashed;
+  padding: 1rem;
+}
+
+footer .footer-content a img {
+  width: 100px;
+}
+
+.location .img-container img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .location h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  .location p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .location .img-container {
+    width: 60%;
+    margin: auto;
+  }
+
+  .location .img-container img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.image-1 {
+  background-image: linear-gradient(#ad281a, #ad281a), url("../../assets/images/last-t.png");
+}
+
+.image-2 {
+  background-image: linear-gradient(#ad281a, #ad281a), url("../../assets/images/tournament-2.jpg");
+}
+
+.lastTournaments {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.lastTournaments h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: #272a31;
+}
+
+.lastTournaments p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  opacity: 0.8;
+  width: 80%;
+  color: #272a31;
+  margin: 0 auto;
+}
+
+.dark div p {
+  color: #fff !important;
+}
+
+.dark div h1 {
+  color: #fff !important;
+}
+
+header nav ul {
+  margin: 0;
+  display: none;
+  position: relative;
+  list-style: none;
+  z-index: 100;
+}
+
+.lastTournaments ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.lastTournaments ul li {
+  background-blend-mode: hard-light;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+}
+
+.lastTournaments ul li h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+}
+
+.lastTournaments ul li p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .lastTournaments h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  .lastTournaments p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 28px;
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .lastTournaments ul {
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .lastTournaments ul li {
+    flex-basis: 50%;
+    height: 400px;
+  }
+
+  .lastTournaments ul li h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .lastTournaments ul li p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 36px;
+  }
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header nav a {
+  display: none;
+}
+
+footer .footer-content a {
+  flex-basis: 35%;
+  text-align: end;
+}
+
+footer .footer-content div {
+  flex-basis: 65%;
+}
+
+footer .footer-content div h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 30px;
+  color: #272a31;
+}
+
+footer .footer-content div p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 16px;
+  color: #272a31;
+}
+
+@media only screen and (min-width: 768px) {
+  footer .footer-content {
+    gap: 3rem;
+    flex-direction: row;
+  }
+
+  footer .footer-content a {
+    flex-basis: 20%;
+  }
+
+  footer .footer-content a img {
+    width: 110px;
+  }
+
+  footer .footer-content div {
+    flex-basis: 55%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    gap: 3rem;
+  }
+}
+
+.border {
+  border: solid 6px #ec5242;
+}
+
+header {
+  background: transparent;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+header nav .menu-icon {
+  position: relative;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.sidebar-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  margin-top: 0;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar-content ul {
+  margin-top: 3rem;
+}
+
+.sidebar-content ul > li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.sidebar-content ul > li > a {
+  text-decoration: none;
+  color: #3a4a42;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.socialLinks li:hover {
+  transform: scale(1.5);
+}
+
+.close-sidebar {
+  color: #67798e;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-sidebar:hover,
+.close-sidebar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    box-shadow: 0 5px 10px 3px #a7a5a5;
+    background: #fff;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav a {
+    display: block;
+  }
+
+  header nav a img {
+    width: 57px;
+    height: auto;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 20px;
+    transition: all ease-in-out 0.3s;
+  }
+
+  header nav ul li a {
+    padding: 1rem;
+    color: #272a31;
+  }
+
+  header nav ul li :hover {
+    color: #ec5242;
+  }
+
+  header nav .menu-icon {
+    display: none;
+  }
+}
+
+.top-bar {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-bar {
+    box-sizing: border-box;
+    background-color: #272a31;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    padding-right: 2rem;
+    gap: 15px;
+  }
+
+  .top-bar i {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .top-bar p {
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+  }
+}

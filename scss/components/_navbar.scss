@@ -1,0 +1,141 @@
+@use '../utilities' as *;
+
+.border {
+  border: solid 6px $primary-red;
+}
+
+header {
+  background: transparent;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  nav {
+    a {
+      display: none;
+    }
+
+    ul {
+      margin: 0;
+      display: none;
+      position: relative;
+      list-style: none;
+      z-index: 100;
+    }
+
+    .menu-icon {
+      position: relative;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  }
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.sidebar-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  margin-top: 0;
+  padding: 20px;
+  height: 100%;
+}
+
+.sidebar-content ul {
+  margin-top: 3rem;
+}
+
+.sidebar-content ul > li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.sidebar-content ul > li > a {
+  text-decoration: none;
+  color: #3a4a42;
+  font-weight: 600;
+
+  @include lato-text(1.3rem, 700, 36px);
+}
+
+.socialLinks li:hover {
+  transform: scale(1.5);
+}
+
+.close-sidebar {
+  color: #67798e;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-sidebar:hover,
+.close-sidebar:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@include desktop {
+  header {
+    box-shadow: 0 5px 10px 3px #a7a5a5;
+    background: $primary-white;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        display: block;
+
+        img {
+          width: 57px;
+          height: auto;
+        }
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 48px;
+
+        li {
+          display: inline-block;
+
+          @include lato-text(1rem, 600, 20px);
+
+          transition: all ease-in-out 0.3s;
+
+          a {
+            padding: 1rem;
+            color: $primary-black;
+          }
+
+          :hover {
+            color: $primary-red;
+          }
+        }
+      }
+
+      .menu-icon {
+        display: none;
+      }
+    }
+  }
+}

@@ -3,18 +3,18 @@
 # Capstone Project - Web Design Course
 
 In this project, I set up my first Capstone Project about a Web Design Course.  My goal here is make 2 pages (home and about) of my web development course for mobile and desktop version.
-<!-- 
-- ![screenshot](/public/preview-home-1.png)
-- ![screenshot](/public/preview-home-2.png)
-- ![screenshot](/public/preview-about-1.png)
-- ![screenshot](/public/preview-about-2.png) -->
+
+- ![screenshot](/assets/images/1.png) 
+- ![screenshot](/assets/images/2.png) 
+- ![screenshot](/assets/images/3.png) 
+- ![screenshot](/assets/images/4.png) 
 
 ## :red_circle: Project Documentation Video
 
-<!-- [Project Video](https://www.loom.com/share/60408e5dd515448bb22e8a5b1f82a0b3) -->
+[Project Video](https://www.loom.com/share/c1472ab5eab74b8185883db0b84c353e)
 ## :red_circle: Live Demo
 
-<!-- [Live Preview Link](https://arthurgc.github.io/capstone-project-module-1/) -->
+[Live Preview Link](https://miguelesco.github.io/capstone-m1/) 
 
 ## :hammer: Built With
 

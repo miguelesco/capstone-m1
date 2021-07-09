@@ -1,5 +1,7 @@
-  
+
 @use './base' as *;
 @use './utilities' as *;
 @use './layout-home' as *;
-@use './components' as *;
+@use './components/footer' as *;
+@use './components/navbar' as *;
+@use './components/top-bar' as *;

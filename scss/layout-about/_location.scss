@@ -1,0 +1,66 @@
+@use '../utilities' as *;
+
+.location {
+  background-color: $primary-white;
+  padding: 1rem;
+
+  h1 {
+    @include lato-text(1.3rem, 600, 36px);
+
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: $primary-black;
+  }
+
+  p {
+    @include lato-text(0.8rem, 400, 20px);
+
+    text-align: center;
+    opacity: 0.8;
+    width: 80%;
+    color: $primary-black;
+    margin: 0 auto;
+  }
+
+  .img-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    border: 1px $primary-gray;
+    border-style: dashed;
+    padding: 1rem;
+
+    img {
+      width: 220px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+@include desktop {
+  .location {
+    h1 {
+      @include lato-text(1.5rem, 600, 36px);
+    }
+
+    p {
+      @include lato-text(1.2rem, 400, 28px);
+
+      width: 40%;
+      margin-bottom: 1rem;
+    }
+
+    .img-container {
+      width: 60%;
+      margin: auto;
+
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+}

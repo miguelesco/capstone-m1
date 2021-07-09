@@ -4,9 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description" content="Capstone Proyect of Module 1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="keywords" content="Web,Web Design, course, HTML, CSS, Javascript, ArthurGC, CodeClub" />
+  <meta name="author" content="Miguelangel Escorche" />
+  <script
+    src="https://kit.fontawesome.com/27e53b408d.js"
+    crossorigin="anonymous">
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/valorant-logo.svg" />
+  <link rel="stylesheet" href="./css/about/about.css">
+  <title>Valorant Master</title>
 </head>
 <body>
-  
+  <div class="top-bar">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <p>Logout</p>
+    <p>Mypage</p>
+    <p>Spanish</p>
+  </div>  
+  <header>
+    <nav>
+      <a href="index.html" class="link">
+        <img src="assets/icon/valorant-menu-icon.svg" alt="valorant logo">
+      </a>
+      <ul class="menu ">
+          <li>
+              <a href="index.html" class="link">Home</a>
+          </li>
+          <li>
+              <a href="#description" class="link">Description</a>
+          </li>
+          <li>
+              <a href="#location" class="link">This Year Location</a>
+          </li>
+          <li>
+              <a href="#lastTournaments" class="link">Past Tournaments</a>
+          </li>
+      </ul>
+      <i class="fas fa-bars menu-icon" id="hamburguerIcon"></i>
+    </nav>
+
+    <div id="sideBar" class="sidebar">
+      <!-- Modal content -->
+        <div class="sidebar-content">
+            <span class="close-sidebar">&times;</span>
+            <ul>
+                <li><a href="index.html" class="sidebarNavigation" >Home</a></li>
+                <li><a href="#description"   class="sidebarNavigation">Description</a></li>
+                <li><a href="#location" class="sidebarNavigation">This Year Location</a></li>
+                <li><a href="#lastTournaments" class="sidebarNavigation">Past Tournaments</a></li>
+            </ul>
+        </div>
+    </div>
+  </header>
+  <main>
+
+    <section id="description" class="description">
+      <div class="description-title">
+        <p>"Hello! Valorant Players"</p>
+        <h1>VCT VALORANT MASTERS TOURNAMENT 2021</h1>
+      </div>
+      <div class="description-text">
+        <p>Let's start with Challengers. Regions around the world will compete in Challengers events in three stages throughout the year. Each stage features two Challengers main events, which any team from the region can qualify for through open qualifiers. At the main events, teams compete for a place in the Challenger qualifiers. Teams that make it to and win the Challengers qualifiers will qualify for a global competition at the Masters events.</p>
+        <h2>Please Contact us to register your team</h2>
+        <p class="email">valorantplays@riotgames.com</p>
+      </div>
+    </section>
+
+    <section id="location" class="location">
+      <h2>Valorant Master Location 2021</h2>
+      <p>This location in Island was choose to fullfil all the requirements of the players and to fin a middle point between all teams.</p>
+      <div class="img-container">
+        <img src="./assets/images/stadium.jpeg" alt="stadium">
+      </div>
+    </section>
+
+    <section id="lastTournaments" class="lastTournaments">
+      <h2>See the past Tournaments</h2>
+      <p>Take a look of the last two Tournaments before the VCT Master</p>
+      <ul>
+        <li class="image-1">
+          <h3>2021</h3>
+          <p>Last tournament before Master</p>
+        </li>
+        <li class="image-2">
+          <h3>2020</h3>
+          <p>Invitational to see the level of the pro teams</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content dark">
+      <a href="index.html" class="link">
+        <img src="assets/icon/valorant-menu-icon.svg" alt="valorant logo">
+      </a>
+      <div>
+        <h2>©2021 Riot Games, Inc. Riot Games.</h2>
+        <p>VALORANT y cualquier logo asociado son marcas, marcas de servicio o marcas registradas de Riot Games, Inc.</p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="./modules/about/main.js"></script>
+
 </body>
 </html>
